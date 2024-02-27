@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                   
+             x:Class="PrayWIthoutCeasing.JournalEntryPage"
+             Title="JournalEntryPage">
+    <StackLayout        Padding="50,0"
+Spacing="25">
+        <Label Text="Journal Entry:" />
+        <Label x:Name="JournalEntryField"
+                       HeightRequest="200" />
+
+        <Entry x:Name="entry"
+       Placeholder="Enter text"
+       TextChanged="OnEntryTextChanged"
+       Completed="OnEntryCompleted" />
+
+    </StackLayout>
+</ContentPage>
