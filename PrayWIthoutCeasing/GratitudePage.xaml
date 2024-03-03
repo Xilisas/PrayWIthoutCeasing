@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PrayWIthoutCeasing.GratitudePage"
+             Title="Prayer of Gratitude">
+    <VerticalStackLayout>
+        <Label 
+            Text="Gratitude Prayer"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label 
+            Text="Pray through your answers to these questions to help you focus on a prayer of gratitude"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        
+        <Label
+            Text=""
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>

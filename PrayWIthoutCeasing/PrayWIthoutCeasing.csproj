@@ -82,7 +82,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="GratitudePage.xaml.cs">
+	    <DependentUpon>GratitudePage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="JournalEntryPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="GratitudePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="PickTemplatePage.xaml">

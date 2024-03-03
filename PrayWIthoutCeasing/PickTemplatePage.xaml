@@ -10,9 +10,9 @@
             Text="Pick a Template"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-        <Picker x:Name="picker"
+        <Picker x:Name="myPicker"
                 Title="Template Selection"
-                SelectedItem="{Binding SelectedTemplate, Mode=TwoWay}">
+ >
             <Picker.ItemsSource>
                 <x:Array Type ="{x:Type x:String}">
                     <x:String>Grattitude</x:String>
