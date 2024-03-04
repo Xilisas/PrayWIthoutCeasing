@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PrayWIthoutCeasing.AskingPrayerPage"
+             Title="Asking Prayer">
+    <VerticalStackLayout>
+        <Label 
+            Text="Take some time to list below some things you would like to ask of the Lord whether for you or for someone else"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Editor Placeholder="" 
+        AutoSize="TextChanges"
+        Text="{Binding MyTextProperty}"/>
+        <Button
+Text="Back" 
+SemanticProperties.Hint="Navigates to Template Selection Page"
+Clicked="OnNavigateClicked"
+HorizontalOptions="Fill" />
+    </VerticalStackLayout>
+</ContentPage>

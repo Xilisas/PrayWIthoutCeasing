@@ -40,13 +40,13 @@ public partial class PickTemplatePage : ContentPage
         {
             await Navigation.PushAsync(new GratitudePage());
         }
-        else if(selectedValue + 1 == 2) 
+        else if(myPicker.SelectedIndex + 1 == 2) 
         {
-            await Navigation.PushAsync(new AdorationPage());
+            await Navigation.PushAsync(new AdorationPrayerPage());
         }
-        else if(selectedValue + 1 == 3)
+        else if(myPicker.SelectedIndex + 1 == 3)
         {
-            await Navigation.PushAsync (new AskingPage());
+            await Navigation.PushAsync (new AskingPrayerPage());
         }
       
     }

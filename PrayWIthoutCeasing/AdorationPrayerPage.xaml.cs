@@ -1,11 +1,11 @@
 namespace PrayWIthoutCeasing;
 
-public partial class GratitudePage: ContentPage
+public partial class AdorationPrayerPage : ContentPage
 {
-	public GratitudePage()
-	{
-		InitializeComponent();
-	}
+    public AdorationPrayerPage()
+    {
+        InitializeComponent();
+    }
     private async void OnNavigateClicked(object sender, EventArgs e)
     {
         await Navigation.PushAsync(new PickTemplatePage());
