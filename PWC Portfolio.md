@@ -11,13 +11,13 @@ The Pray Without Ceasing app was created using C# and XAML using the .Net MAUI F
 ## Initial Design Flow Charts
 Logical System Deisgn <br>
 <picture>
-<img source = "PWC Logical System Design">
+<img source = "PWC Logical System Design.png">
 </picture> <br>
 Process Flow <br>
 <picture>
-<img source = "PWC Logical Process Flow">
+<img source = "PWC Logical Process Flow.png">
 </picture> <br>
 Sitemap <br>
 <picture>
-<img source = "PWC Sitemap">
+<img source = "PWC Sitemap.png">
 </picture> <br>
