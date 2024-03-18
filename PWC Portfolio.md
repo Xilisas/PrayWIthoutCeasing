@@ -45,6 +45,7 @@ Template Entry
 <img src = "PWC Previous Entries Page.png">
 </picture> <br>
 Previous Entries <br><br>
+
 ## Code Examples
 <picture>
 <img src = "PWC Code Snippet 1.png">
