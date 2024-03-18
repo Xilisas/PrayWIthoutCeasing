@@ -45,12 +45,12 @@ Template Entry
 <img src = "PWC Previous Entries Page.png">
 </picture> <br>
 Previous Entries <br><br>
-##Code Examples
+## Code Examples
 <picture>
 <img src = "PWC Code Snippet 1.png">
 </picture> <br>
 Some of the code for the C# side of the Gratitude Template Page.<br><br>
 <picture>
-<img src = "Code Snippet 2">
+<img src = "Code Snippet 2.png">
 </picture> <br>
 Some of the code for the XAML side of the Gratitude Template Page.<br><br>
