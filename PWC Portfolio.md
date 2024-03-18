@@ -22,33 +22,35 @@ Sitemap <br>
 <img src = "PWC Sitemap.png">
 </picture> <br>
 
-##Screenshots of App
+## Screenshots of App
 <picture>
 <img src = "PWC Home Page.png">
 </picture> <br>
-Home Page
+Home Page<br><br>
 <picture>
 <img src = "PWC Template Selection.png">
 </picture> <br>
-Template Selection
+Template Selection<br><br>
 <picture>
 <img src = "PWC Template Picker.png">
 </picture> <br>
 Template Picker
+<br><br>
 <picture>
 <img src = "PWC Prayer Entry Page.png">
 </picture> <br>
 Template Entry
+<br><br>
 <picture>
 <img src = "PWC Previous Entries Page.png">
 </picture> <br>
-Previous Entries <br>
+Previous Entries <br><br>
 ##Code Examples
 <picture>
 <img src = "PWC Code Snippet 1.png">
 </picture> <br>
-Some of the code for the C# side of the Gratitude Template Page.
+Some of the code for the C# side of the Gratitude Template Page.<br><br>
 <picture>
 <img src = "Code Snippet 2">
 </picture> <br>
-Some of the code for the XAML side of the Gratitude Template Page.
+Some of the code for the XAML side of the Gratitude Template Page.<br><br>
