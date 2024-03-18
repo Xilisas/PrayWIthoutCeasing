@@ -51,6 +51,6 @@ Previous Entries <br><br>
 </picture> <br>
 Some of the code for the C# side of the Gratitude Template Page.<br><br>
 <picture>
-<img src = "Code Snippet 2.png">
+<img src = "PWC Code Snippet 2.png">
 </picture> <br>
 Some of the code for the XAML side of the Gratitude Template Page.<br><br>
