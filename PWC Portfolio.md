@@ -21,3 +21,24 @@ Sitemap <br>
 <picture>
 <img src = "PWC Sitemap.png">
 </picture> <br>
+
+##Screenshots of App
+<picture>
+<img src = "PWC Home Page.png">
+</picture> <br>
+
+<picture>
+<img src = "PWC Template Selection.png">
+</picture> <br>
+
+<picture>
+<img src = "PWC Template Picker.png">
+</picture> <br>
+
+<picture>
+<img src = "PWC Prayer Entry Page.png">
+</picture> <br>
+
+<picture>
+<img src = "PWC Previous Entries Page.png">
+</picture> <br>
