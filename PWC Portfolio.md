@@ -27,6 +27,6 @@ From here you can use the chosen template to be able to create your entry. WHen 
 
 ## Previous Entry Page
 <picture>
-<img alt = "Pray Without Ceasing Previous Entry Page" src = "PWC Previous ENtries Page.png">
+<img alt = "Pray Without Ceasing Previous Entry Page" src = "PWC Previous Entries Page.png">
 </picture><br>
 If you select the previous entries button you will be able to see the entries you have previously saved. 
