@@ -15,7 +15,7 @@ Logical System Deisgn <br>
 </picture> <br>
 Process Flow <br>
 <picture>
-<img src = "PWC Logical Process Flow.png">
+<img src = "PWC Process Flow.png">
 </picture> <br>
 Sitemap <br>
 <picture>
