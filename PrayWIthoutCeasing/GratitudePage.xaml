@@ -7,48 +7,61 @@
     <ScrollView>
     <Grid>
         <VerticalStackLayout>
-            <Label 
-            Text="Gratitude Prayer"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-            <Label 
+
+                <Label x:Name="ErrorMessageLabel" Text =" "/>
+                <Label 
+             
             Text="Pray through your answers to these questions to help you focus on a prayer of gratitude"
              
             HorizontalOptions="Center" />
            
             <Label 
+             x:Name="Q1"
             Text="What physical needs have been met this week?"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-                <Editor Placeholder="" 
+                <Editor 
+                    x:Name="A1"
+                Placeholder="" 
         AutoSize="TextChanges"
         Text="{Binding MyTextProperty}"/>
                 <Label 
+                    x:Name="Q2"
             Text="What spiritual needs have been met this week?"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-                <Editor Placeholder="" 
+                <Editor 
+                    x:Name="A2"
+                    Placeholder="" 
         AutoSize="TextChanges"
         Text="{Binding MyTextProperty}"/>
                 <Label 
+                    x:Name="Q3"
             Text="What emotional needs have been met this week?"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-                <Editor Placeholder="" 
+                <Editor
+                    x:Name="A3"
+                    Placeholder="" 
         AutoSize="TextChanges"
         Text="{Binding MyTextProperty}"/>
                 <Label 
+                    x:Name="Q4"
             Text="Are there any previous prayers that have been answered this week?"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-                <Editor Placeholder="" 
+                <Editor x:Name="A4"
+                    Placeholder="" 
         AutoSize="TextChanges"
         Text="{Binding MyTextProperty}"/>
                 <Label 
+                    x:Name="Q5"
             Text="What blessings or unexpected good things have happenned this week?"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-                <Editor Placeholder="" 
+                <Editor
+                    x:Name="A5"
+                    Placeholder="" 
         AutoSize="TextChanges"
         Text="{Binding MyTextProperty}"/>
                 <Label
@@ -56,10 +69,18 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
                 <Button
+Text="Save" 
+SemanticProperties.Hint="Navigates to Template Selection Page"
+Clicked="OnSave"
+HorizontalOptions="Fill" />
+                <BoxView HeightRequest="20" WidthRequest="0" IsVisible="true" />
+                <Button
      Text="Back" 
      SemanticProperties.Hint="Navigates to Template Selection Page"
      Clicked="OnNavigateClicked"
      HorizontalOptions="Fill" />
+               
+
 
             </VerticalStackLayout>
     </Grid>

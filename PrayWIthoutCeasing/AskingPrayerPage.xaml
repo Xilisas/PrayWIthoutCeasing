@@ -12,6 +12,12 @@
         AutoSize="TextChanges"
         Text="{Binding MyTextProperty}"/>
         <Button
+Text="Save" 
+SemanticProperties.Hint="Saves Page"
+Clicked="OnNavigateClicked"
+HorizontalOptions="Fill" />
+        <BoxView HeightRequest="20" WidthRequest="0" IsVisible="true" />
+        <Button
 Text="Back" 
 SemanticProperties.Hint="Navigates to Template Selection Page"
 Clicked="OnNavigateClicked"

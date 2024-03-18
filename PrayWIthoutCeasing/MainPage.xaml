@@ -25,7 +25,7 @@
             <Button
                 Text="View Previous Entries" 
                 SemanticProperties.Hint="Counts the number of times you click"
-                
+                Clicked="OnPreviousEntriesClicked"
                 HorizontalOptions="Fill" />
         </VerticalStackLayout>
     </ScrollView>

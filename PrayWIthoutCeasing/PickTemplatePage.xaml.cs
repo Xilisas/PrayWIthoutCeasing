@@ -2,6 +2,7 @@ namespace PrayWIthoutCeasing;
 
 public partial class PickTemplatePage : ContentPage
 {
+    
     public string SelectedTemplate { get; set; } = "Gratitude";
     public int selectedValue { get; set; }
     public PickTemplatePage()
