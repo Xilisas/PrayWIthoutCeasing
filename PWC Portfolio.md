@@ -7,3 +7,17 @@ Prayer is an important part of the Christian faith, and one tool people use for 
 
 ## Design Approach
 The Pray Without Ceasing app was created using C# and XAML using the .Net MAUI Framework in Visual Studio. It uses a variety of user interface controls such as buttons, pickers and text editor fields to allow the user to be able to create the journal entries the user desires. 
+
+## Initial Design Flow Charts
+Logical System Deisgn <br>
+<picture>
+<img source = "PWC Logical System Design">
+</picture> <br>
+Process Flow <br>
+<picture>
+<img source = "PWC Logical Process Flow">
+</picture> <br>
+Sitemap <br>
+<picture>
+<img source = "PWC Sitemap">
+</picture> <br>
